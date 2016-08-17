@@ -1,0 +1,19 @@
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java DOMEjava DOMEcho -no staff.xml
+Time in nano seconds : 23330
+Time in seconds is 0.000023518
+
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java DOMEcho -no nih-mesh.xml
+Time in nano seconds : 32188
+Time in seconds is 0.000032444    
+
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java DOMEcho -no books.xml
+Time in nano seconds : 23335
+Time in seconds is 0.000023515
+
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java DOMEcho -no note.xml
+Time in nano seconds : 24849
+Time in seconds is 0.000036792
+
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java DOMEcho -no Am.-Football-NFL.xml
+Time in nano seconds : 23992
+Time in seconds is 0.000024210

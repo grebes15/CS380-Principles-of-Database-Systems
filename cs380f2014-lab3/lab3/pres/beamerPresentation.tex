@@ -1,0 +1,111 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfdeclarelayer{f}
+\pgfsetlayers{main,f}
+
+\title[Crisis] % (optional, only for long titles)
+{Computer Science 380 \\ Laboratory Assignment Three Presentation \\ Fall 2014}
+\subtitle{Wednesday September 24th, 2014}
+\author[Andreas Bach Landgrebe, Colton McCurdy, Jake Ballinger, Nicholas Mulvay, Brandon Ginoza] % (optional, for multiple authors)
+{Andreas Bach Landgrebe\inst{1} \and Colton McCurdy\inst{1}\\ \and Jake Ballinger\inst{1} \and Nicholas Mulvay\inst{1}\\ \and Brandon Ginoza\inst{1}}
+\institute[Allegheny College, Department of Computer Science] % (optional)
+{
+  \inst{1}%
+  Allegheny College\\
+  Department of Computer Science
+}
+\date[September 24, 2014] % (optional)
+{Where's Winter?}
+\subject{Informatik}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\begin{center} 
+\Huge Where's Winter?
+	\includegraphics[scale=0.5]{JoSPLStatements.png}
+\end{center}
+\end{frame}
+\begin{frame}
+\begin{center}
+\frametitle{FileFinder.java}
+\end{center}
+\begin{center}
+  \includegraphics[scale=0.35]{Andreas.png}
+
+\end{center}
+
+\end{frame}
+\begin{frame}
+\frame{Data Structures We Evaluated}
+\begin{itemize}
+\item ArrayList
+\item LinkedList
+\item Vector
+\item ArrayDeque
+\\
+\end{itemize}
+\begin{center}
+\Huge Hardware
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Lab Computers}
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    enlargelimits=0.15,
+    legend style={at={(0.5,-0.15)},
+      anchor=north,legend columns=-1},
+    ylabel={Time(seconds)},
+    symbolic x coords={ArrayList, LinkedList, Vector, ArrayDQ},
+    xtick=data,
+    nodes near coords,
+    nodes near coords align={vertical},
+    ]
+\addplot coordinates {(ArrayList,211490) (LinkedList,274760) (Vector,376177) (ArrayDQ,338445)};
+\addplot coordinates {(ArrayList,16167356) (LinkedList,15574785) (Vector,15216259) (ArrayDQ,15182332)};
+\legend{Hard Coded(H),JoSQL(J)}
+\end{axis}
+\end{tikzpicture}
+\end{frame}
+\begin{frame}
+\frametitle{Colton's Mac}
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    enlargelimits=0.15,
+    legend style={at={(0.5,-0.15)},
+      anchor=north,legend columns=-1},
+    ylabel={Time(seconds)},
+    symbolic x coords={ArrayList, LinkedList, Vector, ArrayDQ},
+    xtick=data,
+    nodes near coords,
+    nodes near coords align={vertical},
+    ]
+\addplot coordinates {(ArrayList,952750) (LinkedList,877709) (Vector,1601042) (ArrayDQ,977042)};
+\addplot coordinates {(ArrayList,19888083) (LinkedList,20011458) (Vector,21229708) (ArrayDQ,21160625)};
+\legend{Hard Coded(H),JoSQL(J)}
+\end{axis}
+\end{tikzpicture}
+
+
+
+\end{frame}
+\begin{frame}
+\begin{center}
+\Huge Demonstration
+\end{center}
+\end{frame}
+
+
+
+\end{document}
+
+

@@ -1,0 +1,541 @@
+staff.xml:
+meansa@aldenv105:~/cs380f2014-share/labs/lab8$ java DOMEcho staff.xml
+DOC: nodeName="#document"
+  ELEM: nodeName="company" local="company"
+    TEXT: nodeName="#text" nodeValue=[WS]
+    ELEM: nodeName="staff" local="staff"
+        ATTR: nodeName="id" local="id" nodeValue="1001"
+          TEXT: nodeName="#text" nodeValue="1001"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="firstname" local="firstname"
+        TEXT: nodeName="#text" nodeValue="gregory"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="lastname" local="lastname"
+        TEXT: nodeName="#text" nodeValue="kapfhammer"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="nickname" local="nickname"
+        TEXT: nodeName="#text" nodeValue="gkapfham"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="salary" local="salary"
+        TEXT: nodeName="#text" nodeValue="200000"
+      TEXT: nodeName="#text" nodeValue=[WS]
+    TEXT: nodeName="#text" nodeValue=[WS]
+    ELEM: nodeName="staff" local="staff"
+        ATTR: nodeName="id" local="id" nodeValue="2001"
+          TEXT: nodeName="#text" nodeValue="2001"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="firstname" local="firstname"
+        TEXT: nodeName="#text" nodeValue="john"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="lastname" local="lastname"
+        TEXT: nodeName="#text" nodeValue="wenskovitch"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="nickname" local="nickname"
+        TEXT: nodeName="#text" nodeValue="jwenskovitch"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="salary" local="salary"
+        TEXT: nodeName="#text" nodeValue="100000"
+      TEXT: nodeName="#text" nodeValue=[WS]
+    TEXT: nodeName="#text" nodeValue=[WS]
+    ELEM: nodeName="staff" local="staff"
+        ATTR: nodeName="id" local="id" nodeValue="3001"
+          TEXT: nodeName="#text" nodeValue="3001"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="firstname" local="firstname"
+        TEXT: nodeName="#text" nodeValue="janyl"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="lastname" local="lastname"
+        TEXT: nodeName="#text" nodeValue="jumadinova"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="nickname" local="nickname"
+        TEXT: nodeName="#text" nodeValue="jjumadinova"
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="salary" local="salary"
+        TEXT: nodeName="#text" nodeValue="100000"
+      TEXT: nodeName="#text" nodeValue=[WS]
+    TEXT: nodeName="#text" nodeValue=[WS]
+
+
+
+
+
+
+
+nih-mesh.xml:
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierUI" local="QualifierUI"
+              TEXT: nodeName="#text" nodeValue="Q000633"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierName" local="QualifierName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="toxicity"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="Abbreviation" local="Abbreviation"
+            TEXT: nodeName="#text" nodeValue="TO"
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="AllowableQualifier" local="AllowableQualifier"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="QualifierReferredTo" local="QualifierReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierUI" local="QualifierUI"
+              TEXT: nodeName="#text" nodeValue="Q000652"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierName" local="QualifierName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="urine"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="Abbreviation" local="Abbreviation"
+            TEXT: nodeName="#text" nodeValue="UR"
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="AllowableQualifier" local="AllowableQualifier"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="QualifierReferredTo" local="QualifierReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierUI" local="QualifierUI"
+              TEXT: nodeName="#text" nodeValue="Q000737"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierName" local="QualifierName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="chemistry"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="Abbreviation" local="Abbreviation"
+            TEXT: nodeName="#text" nodeValue="CH"
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="AllowableQualifier" local="AllowableQualifier"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="QualifierReferredTo" local="QualifierReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierUI" local="QualifierUI"
+              TEXT: nodeName="#text" nodeValue="Q000744"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierName" local="QualifierName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="contraindications"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="Abbreviation" local="Abbreviation"
+            TEXT: nodeName="#text" nodeValue="CT"
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="AllowableQualifier" local="AllowableQualifier"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="QualifierReferredTo" local="QualifierReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierUI" local="QualifierUI"
+              TEXT: nodeName="#text" nodeValue="Q000819"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="QualifierName" local="QualifierName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="agonists"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="Abbreviation" local="Abbreviation"
+            TEXT: nodeName="#text" nodeValue="AG"
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="HistoryNote" local="HistoryNote"
+        TEXT: nodeName="#text" nodeValue="91(75); was A 23187 1975-90 (see under ANTIBIOTICS 1975-83)
+  "
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="OnlineNote" local="OnlineNote"
+        TEXT: nodeName="#text" nodeValue="use CALCIMYCIN to search A 23187 1975-90
+  "
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="PublicMeSHNote" local="PublicMeSHNote"
+        TEXT: nodeName="#text" nodeValue="91; was A 23187 1975-90 (see under ANTIBIOTICS 1975-83)
+  "
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="PreviousIndexingList" local="PreviousIndexingList"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="PreviousIndexing" local="PreviousIndexing"
+          TEXT: nodeName="#text" nodeValue="Antibiotics (1973-1974)"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="PreviousIndexing" local="PreviousIndexing"
+          TEXT: nodeName="#text" nodeValue="Carboxylic Acids (1973-1974)"
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="PharmacologicalActionList" local="PharmacologicalActionList"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="PharmacologicalAction" local="PharmacologicalAction"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="DescriptorReferredTo" local="DescriptorReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="DescriptorUI" local="DescriptorUI"
+              TEXT: nodeName="#text" nodeValue="D061207"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="DescriptorName" local="DescriptorName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="Calcium Ionophores"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="PharmacologicalAction" local="PharmacologicalAction"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="DescriptorReferredTo" local="DescriptorReferredTo"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="DescriptorUI" local="DescriptorUI"
+              TEXT: nodeName="#text" nodeValue="D000900"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="DescriptorName" local="DescriptorName"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="Anti-Bacterial Agents"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="TreeNumberList" local="TreeNumberList"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="TreeNumber" local="TreeNumber"
+          TEXT: nodeName="#text" nodeValue="D03.438.221.173"
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="RecordOriginatorsList" local="RecordOriginatorsList"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="RecordOriginator" local="RecordOriginator"
+          TEXT: nodeName="#text" nodeValue="NLM"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="RecordMaintainer" local="RecordMaintainer"
+          TEXT: nodeName="#text" nodeValue="SYSTEM"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="RecordAuthorizer" local="RecordAuthorizer"
+          TEXT: nodeName="#text" nodeValue="jtk"
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+      ELEM: nodeName="ConceptList" local="ConceptList"
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="Concept" local="Concept"
+            ATTR: nodeName="PreferredConceptYN" local="PreferredConceptYN" nodeValue="Y"
+              TEXT: nodeName="#text" nodeValue="Y"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptUI" local="ConceptUI"
+            TEXT: nodeName="#text" nodeValue="M0000001"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptName" local="ConceptName"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="String" local="String"
+              TEXT: nodeName="#text" nodeValue="Calcimycin"
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="CASN1Name" local="CASN1Name"
+            TEXT: nodeName="#text" nodeValue="4-Benzoxazolecarboxylic acid, 5-(methylamino)-2-((3,9,11-trimethyl-8-(1-methyl-2-oxo-2-(1H-pyrrol-2-yl)ethyl)-1,7-dioxaspiro(5.5)undec-2-yl)methyl)-, (6S-(6alpha(2S*,3S*),8beta(R*),9beta,11alpha))-"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="RegistryNumber" local="RegistryNumber"
+            TEXT: nodeName="#text" nodeValue="37H9VM9WZL"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ScopeNote" local="ScopeNote"
+            TEXT: nodeName="#text" nodeValue="An ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports CALCIUM and other divalent cations across membranes and uncouples oxidative phosphorylation while inhibiting ATPase of rat liver mitochondria. The substance is used mostly as a biochemical tool to study the role of divalent cations in various biological systems.
+    "
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="SemanticTypeList" local="SemanticTypeList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="SemanticType" local="SemanticType"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeUI" local="SemanticTypeUI"
+                TEXT: nodeName="#text" nodeValue="T109"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeName" local="SemanticTypeName"
+                TEXT: nodeName="#text" nodeValue="Organic Chemical"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="SemanticType" local="SemanticType"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeUI" local="SemanticTypeUI"
+                TEXT: nodeName="#text" nodeValue="T195"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeName" local="SemanticTypeName"
+                TEXT: nodeName="#text" nodeValue="Antibiotic"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="RelatedRegistryNumberList" local="RelatedRegistryNumberList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="RelatedRegistryNumber" local="RelatedRegistryNumber"
+              TEXT: nodeName="#text" nodeValue="52665-69-7 (Calcimycin)"
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptRelationList" local="ConceptRelationList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="ConceptRelation" local="ConceptRelation"
+                ATTR: nodeName="RelationName" local="RelationName" nodeValue="NRW"
+                  TEXT: nodeName="#text" nodeValue="NRW"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="Concept1UI" local="Concept1UI"
+                TEXT: nodeName="#text" nodeValue="M0000001"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="Concept2UI" local="Concept2UI"
+                TEXT: nodeName="#text" nodeValue="M0353609"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="TermList" local="TermList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="NON"
+                  TEXT: nodeName="#text" nodeValue="NON"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000002"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="Calcimycin"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="DateCreated" local="DateCreated"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Year" local="Year"
+                  TEXT: nodeName="#text" nodeValue="1999"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Month" local="Month"
+                  TEXT: nodeName="#text" nodeValue="01"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Day" local="Day"
+                  TEXT: nodeName="#text" nodeValue="01"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="ThesaurusIDlist" local="ThesaurusIDlist"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="ThesaurusID" local="ThesaurusID"
+                  TEXT: nodeName="#text" nodeValue="FDA SRS (2014)"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="ThesaurusID" local="ThesaurusID"
+                  TEXT: nodeName="#text" nodeValue="NLM (1975)"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+        ELEM: nodeName="Concept" local="Concept"
+            ATTR: nodeName="PreferredConceptYN" local="PreferredConceptYN" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue="N"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptUI" local="ConceptUI"
+            TEXT: nodeName="#text" nodeValue="M0353609"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptName" local="ConceptName"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="String" local="String"
+              TEXT: nodeName="#text" nodeValue="A-23187"
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="RegistryNumber" local="RegistryNumber"
+            TEXT: nodeName="#text" nodeValue="0"
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="SemanticTypeList" local="SemanticTypeList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="SemanticType" local="SemanticType"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeUI" local="SemanticTypeUI"
+                TEXT: nodeName="#text" nodeValue="T109"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeName" local="SemanticTypeName"
+                TEXT: nodeName="#text" nodeValue="Organic Chemical"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="SemanticType" local="SemanticType"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeUI" local="SemanticTypeUI"
+                TEXT: nodeName="#text" nodeValue="T195"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="SemanticTypeName" local="SemanticTypeName"
+                TEXT: nodeName="#text" nodeValue="Antibiotic"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="ConceptRelationList" local="ConceptRelationList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="ConceptRelation" local="ConceptRelation"
+                ATTR: nodeName="RelationName" local="RelationName" nodeValue="NRW"
+                  TEXT: nodeName="#text" nodeValue="NRW"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="Concept1UI" local="Concept1UI"
+                TEXT: nodeName="#text" nodeValue="M0000001"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="Concept2UI" local="Concept2UI"
+                TEXT: nodeName="#text" nodeValue="M0353609"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+          ELEM: nodeName="TermList" local="TermList"
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="LAB"
+                  TEXT: nodeName="#text" nodeValue="LAB"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000001"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="A-23187"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="DateCreated" local="DateCreated"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Year" local="Year"
+                  TEXT: nodeName="#text" nodeValue="1990"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Month" local="Month"
+                  TEXT: nodeName="#text" nodeValue="03"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Day" local="Day"
+                  TEXT: nodeName="#text" nodeValue="08"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="ThesaurusIDlist" local="ThesaurusIDlist"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="ThesaurusID" local="ThesaurusID"
+                  TEXT: nodeName="#text" nodeValue="NLM (1991)"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="LAB"
+                  TEXT: nodeName="#text" nodeValue="LAB"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000001"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="A 23187"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="NON"
+                  TEXT: nodeName="#text" nodeValue="NON"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000003"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="Antibiotic A23187"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="DateCreated" local="DateCreated"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Year" local="Year"
+                  TEXT: nodeName="#text" nodeValue="1990"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Month" local="Month"
+                  TEXT: nodeName="#text" nodeValue="03"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Day" local="Day"
+                  TEXT: nodeName="#text" nodeValue="08"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="ThesaurusIDlist" local="ThesaurusIDlist"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="ThesaurusID" local="ThesaurusID"
+                  TEXT: nodeName="#text" nodeValue="NLM (1991)"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="Y"
+                  TEXT: nodeName="#text" nodeValue="Y"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="NON"
+                  TEXT: nodeName="#text" nodeValue="NON"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000003"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="A23187, Antibiotic"
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+            ELEM: nodeName="Term" local="Term"
+                ATTR: nodeName="ConceptPreferredTermYN" local="ConceptPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="IsPermutedTermYN" local="IsPermutedTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="LexicalTag" local="LexicalTag" nodeValue="LAB"
+                  TEXT: nodeName="#text" nodeValue="LAB"
+                ATTR: nodeName="PrintFlagYN" local="PrintFlagYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+                ATTR: nodeName="RecordPreferredTermYN" local="RecordPreferredTermYN" nodeValue="N"
+                  TEXT: nodeName="#text" nodeValue="N"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="TermUI" local="TermUI"
+                TEXT: nodeName="#text" nodeValue="T000004"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="String" local="String"
+                TEXT: nodeName="#text" nodeValue="A23187"
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="DateCreated" local="DateCreated"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Year" local="Year"
+                  TEXT: nodeName="#text" nodeValue="1974"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Month" local="Month"
+                  TEXT: nodeName="#text" nodeValue="11"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="Day" local="Day"
+                  TEXT: nodeName="#text" nodeValue="11"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+              ELEM: nodeName="ThesaurusIDlist" local="ThesaurusIDlist"
+                TEXT: nodeName="#text" nodeValue=[WS]
+                ELEM: nodeName="ThesaurusID" local="ThesaurusID"
+                  TEXT: nodeName="#text" nodeValue="UNK (19XX)"
+                TEXT: nodeName="#text" nodeValue=[WS]
+              TEXT: nodeName="#text" nodeValue=[WS]
+            TEXT: nodeName="#text" nodeValue=[WS]
+          TEXT: nodeName="#text" nodeValue=[WS]
+        TEXT: nodeName="#text" nodeValue=[WS]
+      TEXT: nodeName="#text" nodeValue=[WS]
+    TEXT: nodeName="#text" nodeValue=[WS]
+

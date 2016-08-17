@@ -1,0 +1,28 @@
+staff.xml:
+meansa@aldenv179:~/cs380f2014-share/cs380-team9-lab8$ java ReadXMLFileWithDOM Root element :company
+
+Current Element: staff
+Staff id : 1001
+First Name : gregory
+Last Name : kapfhammer
+Nick Name : gkapfham
+Salary : 200000
+
+Current Element: staff
+Staff id : 2001
+First Name : john
+Last Name : wenskovitch
+Nick Name : jwenskovitch
+Salary : 100000
+
+Current Element: staff
+Staff id : 3001
+First Name : janyl
+Last Name : jumadinova
+Nick Name : jjumadinova
+Salary : 100000
+
+nih-mesh.xml:
+meansa@aldenv179:~/cs380f2014-share/cs380-team9-lab8$ java ReadXMLFileWithDOM Root element :DescriptorRecordSet
+
+

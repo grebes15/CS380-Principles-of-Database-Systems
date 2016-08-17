@@ -1,0 +1,8 @@
+
+Players
+CREATE TABLE Players (
+id     INTEGER NOT NULL PRIMARY KEY,
+first_name VARCHAR(15) NOT NULL,
+last_name VARCHAR(15) NOT NULL,
+country_of_origin VARCHAR(15) NOT NULL
+);

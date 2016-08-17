@@ -1,0 +1,40 @@
+\documentclass{article}
+\begin{document}
+\noindent
+Andreas Landgrebe
+\\
+Laboratory Assignment \# 2: Procedural Programming and File Processing Systems
+\\
+\begin{enumerate}
+\item\textbf{{ The description of the input, output, and behaviour for the required R commands}}
+\begin{enumerate}
+\item {attach} 
+\\
+The inputs of the "attach" command would be the list of arguments. The first argument would be the database to evaluate. The next argument would be the position to 'search()' to be able to know to where to attach. The last argument would be the name. This name is the name to use for the attached database. The only constraint with this is that any name starting with 'package:' are reserved for 'library'. The output would be able to refer to the variables in data frame by their names alone, rather than as components of the data frame. The behaviour of this is that the database is not actually attached. A new environment is being created on the search path and the elements of a list or object in a save file or an environment are copied into the new environment.
+\\
+\item {names} 
+\\
+The inputs of the "names" command will be 2 arguments. The first argument will be an R object which could be x. The other argument will be a value which is a character vector of up to the same length as 'x', or 'NULL'. The output of this function will be to get or set the names of an object. The behaviour is this is to be able to look into an object or a data and be able to set or get the names of a data set.
+\\
+\item {head}
+\\
+The input of the "head" command will be 2 arguments. The first argument will be an object which could be x. The other argument for this function is a single integer. The output of this function will be that it will return or the first or last parts of a vector, matrix, table, data frame or function. Since this is generic function, then this function can be extended to other classes. The behaviour of this function is to be to look at a data set along with other different representations of data to be able to return the first or last parts of them.
+\\
+\item {median}
+\\
+The input of the "median" command will be 2 arguments. The first argument will be an object for which a method has been defined, or a numeric vector containing the values whose median is to be computed. This object could be x. The other argument is a logical value indicating whether 'NA' values should be stripped before the computation proceeds. The output of this function will display the sample median of what is being computed. The behaviour of this function is to be able to compute the sample median.
+\\
+\item {subset}
+\\
+The input of the "subset" command will be 5 arguments. The first argument will be an object to be subsetted which could be x. The next argument is a logical expression indicating elements or rows to keep: the missing values are taken as false. The third argument will be an expression, indicating columns to select from a data frame. The next argument is to passed onto an indexing operator such as this '['. The last argument is possibly any further argument to be passed to or from other methods. The output of this function will be to return subsets of vectors, matrices, or data frames which meet conditions. The behaviour of this function is to be able to be able to look into a data frame, vector or matrix and set conditions to look into then the output will be the return the the subsets of these data frames, vectors or matrices.
+\\
+\item {ls}
+\\
+The input of the "ls" command will be 5 arguments. The first argument will be which environment to use in listing the available objects. The next argument that one could use will be an alternative argument to 'name' for specifying the environment as a position in the search list. The next argument that one could use will be an alternative argument to 'name' for specifying the environment. These past two arguments are mostly there for back compatibility. The next argument is a logical value. If this is 'TRUE', all object names are returned. If this is 'FALSE' then the object names which begin with a '.' are omitted. The last argument is an optional regular expression. Only names matching 'pattern' are returned. The output of this function is to return a vector of character strings giving the names of the object in the specified environment. When it is invoked with no arguments, at the top level prompt, 'ls' shows what data sets and function a user has defined. Inside a function, when invoked with no arguments inside a function, 'ls' will return the names of the function's local variables. The behaviour of this function is to be able to give names of object in a environment. This environment could be a database. After so, the function will return a vector of character strings.  
+\\
+\item {summarize or summary}
+\\
+The input of the 'summary' function are 4 arguments. The first argument is an object for which a summary is desired. The next argument is an integer, which will indicate how many levels should be show for 'factor's. The next argument is another integer that is used for number formatting with 'signif()' or format(). The output of this generic function is to produce result summaries of the results of various model fitting functions. This function invokes particular 'methods' which depend on the 'class' of the first argument. The behaviour of this function is to be able to set arguments on various model fitting functions to be able to produce result summaries.
+\end{enumerate}
+\end{enumerate}
+\end{document}

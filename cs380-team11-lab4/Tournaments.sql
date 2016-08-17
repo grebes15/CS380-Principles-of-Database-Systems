@@ -1,0 +1,6 @@
+Tournaments
+CREATE TABLE Tournaments (
+id INTEGER NOT NULL PRIMARY KEY,
+id_tournament VARCHAR(15) NOT NULL,
+RESULT VARCHAR(4)
+);

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<company>
+    <staff id="1001">
+        <firstname>gregory</firstname>
+        <lastname>kapfhammer</lastname>
+        <nickname>gkapfham</nickname>
+        <salary>200000</salary>
+        <department>CS
+            <location state="PA">Meadville</location>
+        </department>
+    </staff>
+    <staff id="2001">
+        <firstname>john</firstname>
+        <lastname>wenskovitch</lastname>
+        <nickname>jwenskovitch</nickname>
+        <salary>100000</salary>
+        <department>CS</department>
+    </staff>
+    <staff id="3001">
+	   <firstname>janyl</firstname>
+	   <lastname>jumadinova</lastname>
+	   <nickname>jjumadinova</nickname>
+	   <salary>100000</salary>
+       <department>CS</department>
+    </staff>
+    <staff id="4001">
+        <firstname>robert</firstname>
+        <lastname>roos</lastname>
+        <nickname>rroos</nickname>
+        <salary>0</salary>
+        <department>CS</department>
+    </staff>
+</company>

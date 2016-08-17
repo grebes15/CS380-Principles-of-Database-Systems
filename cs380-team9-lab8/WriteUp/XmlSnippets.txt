@@ -1,0 +1,71 @@
+staff.xml sample:
+<?xml version="1.0"?>
+<company>
+    <staff id="1001">
+        <firstname>gregory</firstname>
+        <lastname>kapfhammer</lastname>
+        <nickname>gkapfham</nickname>
+        <salary>200000</salary>
+        <department>CS
+            <location state="PA">Meadville</location>
+        </department>
+    </staff>
+
+
+nih-mesh.xml sample:
+<?xml version="1.0"?>
+<DescriptorRecordSet LanguageCode = "eng">
+<DescriptorRecord DescriptorClass = "1">
+  <DescriptorUI>D000001</DescriptorUI>
+  <DescriptorName>
+   <String>Calcimycin</String>
+  </DescriptorName>
+  <DateCreated>
+   <Year>1974</Year>
+   <Month>11</Month>
+   <Day>19</Day>
+  </DateCreated>
+  <DateRevised>
+   <Year>2013</Year>
+   <Month>07</Month>
+   <Day>08</Day>
+  </DateRevised>
+
+
+note.xml sample:
+<!-- Edited by XMLSpy -->
+<note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
+
+
+books.xml sample:
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk101">
+      <author>Gambardella, Matthew</author>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price>44.95</price>
+      <publish_date>2000-10-01</publish_date>
+      <description>An in-depth look at creating applications 
+      with XML.</description>
+   </book>
+   <book id="bk102">
+      <author>Ralls, Kim</author>
+      <title>Midnight Rain</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publish_date>2000-12-16</publish_date>
+      <description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</description>
+   </book>
+
+
+Am.-Footaball-NFL.xml sample:
+<?xml version="1.0" encoding="UTF-8"?><spocosy version="1.0" responsetime="2013-05-17 04:15:12" exec="0.481"><query-response requestid="" service="objectquery"><sport name="Am. Football" enetSportCode="fo" del="no" n="0" ut="2012-12-11 08:31:48" id="24"><tournament_template name="USA 1" sportFK="24" gender="male" enetID="0" del="no" n="0" ut="2012-07-04 13:46:50" id="415"><tournament name="2012/2013" tournament_templateFK="415" enetSeasonID="0" del="no" locked="none" n="0" ut="2012-05-10 08:48:13" id="6804"><tournament_stage name="NFL" tournamentFK="6804" countryFK="16" gender="male" enetID="0" startdate="2012-09-06" enddate="2012-12-31" del="no" locked="none" n="22" ut="2012-12-24 06:45:34" id="827295"><event name="Minnesota Vikings-Green Bay Packers" tournament_stageFK="827295" startdate="2012-12-30 22:25:00" eventstatusFK="0" status_type="finished" status_descFK="6" enetID="0" enetSportID="" del="no" locked="none" n="8" ut="2012-12-31 02:08:03" id="1202478"><properties><property object="event" objectFK="1202478" type="metadata" name="Round" value="1" del="no" n="0" ut="2012-05-10 09:30:11" id="14609443"></property>
+

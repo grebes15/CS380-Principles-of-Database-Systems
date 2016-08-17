@@ -1,0 +1,71 @@
+ReadXMLFileWithDom Output:
+
+staff.xml:
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java ReadXMLFileWithDOM 
+
+Current Element: staff
+Staff id : 1001
+First Name : gregory
+Last Name : kapfhammer
+Nick Name : gkapfham
+Salary : 200000
+Department : CS
+            Meadville
+        
+
+Current Element: staff
+Staff id : 2001
+First Name : john
+Last Name : wenskovitch
+Nick Name : jwenskovitch
+Salary : 100000
+Department : CS
+
+Current Element: staff
+Staff id : 3001
+First Name : janyl
+Last Name : jumadinova
+Nick Name : jjumadinova
+Salary : 100000
+Department : CS
+
+Current Element: staff
+Staff id : 4001
+First Name : robert
+Last Name : roos
+Nick Name : rroos
+Salary : 0
+Department : CS
+
+
+Time in nano seconds : 44605716
+Time in seconds is 0.044606160
+
+nih-mesh.xml:
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java ReadXMLFileWithDOM 
+Root element :DescriptorRecordSet
+
+Time in nano seconds : 55846023
+Time in seconds is 0.055846549
+
+note.xml:
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java ReadXMLFileWithDOM 
+Root element :note
+
+ Time in nano seconds : 34709189
+
+
+books.xml:
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java ReadXMLFileWithDOM 
+Root element :catalog
+
+Time in nano seconds : 44800991
+Time in seconds is 0.044801457
+
+Am.-Football-NFL.xml:
+meansa@aldenv105:~/cs380-team9-lab8/Src$ java ReadXMLFileWithDOM 
+Root element :spocosy
+
+Time in nano seconds : 106377154
+Time in seconds is 0.106377853
+

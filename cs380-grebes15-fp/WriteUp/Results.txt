@@ -1,0 +1,42 @@
+On MacBookPro
+
+DOMEcho 
+Books
+0.208523 & 0.041428 & 0.042919 & 0.039658 & 0.045261
+Average:
+
+SAXEcho
+Books
+0.055831 & 0.024808 & 0.025525 & 0.021801 & 0.022332
+Average:
+
+DOMecho
+Actor
+3.543439 & 2.926811 & 4.833665 & 2.611887 & 3.087350
+Average:
+
+SAXEcho
+Actor
+0.022556 & 0.026192 & 0.021586 & 0.021564 & 0.021099
+Average:
+
+DOMEcho
+EPAXMLDownload
+41.001281 & 40.768404 & 38.8329267 & 39.084435 & 38.550187
+Average:
+
+SAXEcho
+EPAXMLDownload
+0.054984 & 0.026865 & 0.020949 & 0.023010 & 0.022041
+Average:
+
+On Desktop
+fibonacci.xml (extra large)
+DOMEecho
+18.732033364 & 7.188593838 & 7.188286017 & 7.154550480 & 7.148989056
+Average:
+
+SAXecho
+0.050497412 & 0.011871290 & 0.011724588 & 0.011697998 & 0.011626305
+Average:
+
